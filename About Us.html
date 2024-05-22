@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>About Us</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: cursive;
+      }
+      .section {
+        width: 100%;
+        min-height: 100vh;
+        background-color: darkred;
+        text-align: center;
+        align-content: center;
+      }
+      .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+      }
+      .content-section {
+        float: left;
+        width: 55%;
+        font-family: cursive;
+      }
+      .image-section {
+        float: right;
+        width: 40%;
+      }
+      .image-section img {
+        width: 100%;
+        height: auto;
+      }
+      .title h1 {
+        text-transform: uppercase;
+        font-size: 28px;
+        padding-bottom: 20px;
+      }
+      .content h3,
+      h4 {
+        margin-top: 20px;
+        color: #fff;
+      }
+      .content {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+      .fa-box:before {
+        content: none;
+      }
+      .aboutusP {
+        color: #fff;
+        font-size: 20px;
+      }
+      @media screen and (max-width: 600px) {
+        .navbar {
+          overflow: auto;
+        }
+      }
+      .nav-list {
+        float: none;
+        width: 100%;
+      }
+      .text {
+        font-size: 1px;
+      }
+      .about-us {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 50px;
+      }
+      .card {
+        width: 300px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        transition: transform 0.3s ease;
+      }
+      .card:hover {
+        transform: translateY(-5px);
+      }
+      .info {
+        padding: 20px;
+      }
+      h2 {
+        margin-bottom: 10px;
+        color: #333;
+      }
+      p {
+        font-size: 16px;
+        color: #666;
+      }
+      .teamh1 {
+        text-align: center;
+        font-size: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <!-- Header -->
+      <h1 class="logo">PIXEL<i style="color: #ef1a3a">PALACE</i></h1>
+      <!-- NAVBAR -->
+      <nav>
+        <ul class="navbar">
+          <li class="nav-list"><a href="index.html">Home</a></li>
+          <li class="nav-list"><a href="Games.html">Games</a></li>
+          <li class="nav-list"><a href="About Us.html">About Us</a></li>
+          <li class="nav-list"><a href="contactus.html">Contact Us</a></li>
+          <li class="nav-list"><a href="Review.html">Review</a></li>
+          <li class="nav-list"><a href="Resources.html">Resources</a></li>
+        </ul>
+      </nav>
+      <div class="action">
+        <!-- SEARCH BAR -->
+        <div class="search fa-box">
+          <a href="#">
+            <i class="bx bx-search-alt"></i>
+          </a>
+          <input
+            type="text"
+            class="input-search"
+            placeholder="Search Games"
+          />
+        </div>
+      </div>
+    </header>
+    <div class="section">
+      <div class="container">
+        <div class="content-section">
+          <div class="title">
+            <h1>ABOUT US</h1>
+            <h1 style="color: black">Welcome to Pixel Palace!</h1>
+          </div>
+          <div class="content">
+            <p class="aboutusP">
+              At Pixel Palace, we're passionate about gaming. We curate the best
+              gaming gear and accessories to elevate your gaming experience.
+              Whether you're a hardcore gamer or just starting out, we've got
+              you covered.
+            </p>
+           <br>
+            <p class="aboutusP">
+            <strong> <i>Our mission is simple:</i></strong><br>  to provide top-quality products and
+              exceptional service to gamers worldwide. Join us at Pixel Palace
+              and level up your gaming journey today!.
+            </p>
+            <p class="aboutusP">
+              <strong><i>History:</i></strong><br/>
+              Founded in 2010, Pixel Palace started as a small online forum for
+              gaming enthusiasts. It quickly grew into a leading gaming
+              destination, offering a diverse range of products and services to
+              gamers worldwide.
+            </p>
+            <p class="aboutusP">
+              <strong><i>Values:</i></strong><br/>
+              <ol style="text-align: left;">
+                <li>Passion:We're fueled by our love for gaming, creating a
+                  community where gamers can thrive.</li>
+                <li>Innovation: We're always exploring new ideas and
+                  technologies to enhance the gaming experience.</li>
+                <li>Inclusivity: Everyone is welcome at Pixel Palace, where
+                  diversity is celebrated.</li>
+                <li>Quality: We're committed to providing top-quality products
+                  and services to our community.</li>
+                <li>Community: Our community is at the heart of everything we
+                  do, fostering connections and collaboration.</li>
+                <li>Integrity: We value honesty, transparency, and
+                  accountability in all our interactions.</li>
+                <li>Fun: Above all, Pixel Palace is about having fun and
+                  enjoying gaming together.</li>
+              </ol>
+            </p>
+          </div>
+        </div>
+        <div class="image-section">
+          <img src="./images/layanpic.jpg" alt="Placeholder Image" />
+        </div>
+      </div>
+    </div>
+    <h1 class="teamh1">Meet Our Team</h1>
+    <section class="about-us">
+      <!-- card 1  -->
+      <div class="card">
+        <div class="info">
+          <h2>Aya</h2>
+          <p>
+            Aya, our esteemed team leader, is the driving force behind Pixel Palace's success. Renowned as our resident gaming guru, Aya's passion for gaming knows no bounds. Her unparalleled expertise and insightful guidance serve as the cornerstone of our community. From curating the latest gaming trends to offering invaluable advice.
+          </p>
+        </div>
+      </div>
+      <!-- card 1 -->
+      <div class="card">
+        <div class="info">
+          <h2>Khaled</h2>
+          <p>
+            Khaled is our tech-savvy whiz. With a passion for innovation and
+            technology, he's constantly exploring new ways to enhance our gaming
+            platform. From backend development to user interface design,
+            Khaled's expertise ensures that PixelPalace runs smoothly and
+            efficiently for all our users.
+          </p>
+        </div>
+      </div>
+      <!-- card 3 -->
+      <div class="card">
+        <div class="info">
+          <h2>Layan</h2>
+          <p>
+            Layan is our creative genius. With a keen eye for design and a flair
+            for aesthetics, she's the mastermind behind PixelPalace's
+            captivating visuals. From stunning graphics to sleek website
+            layouts, Layan's artistic touch adds an extra layer of magic to the
+            gaming experience.
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; All rights reserved.To "PIXELPALACE" Store</p>
+    </footer>
+  </body>
+</html>

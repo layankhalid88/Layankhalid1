@@ -1,0 +1,183 @@
+/* body {
+  background-color: rgb(105, 11, 11);
+}
+
+/*featrude games*/
+/*
+.featrude_games {
+  width: 100%;
+  height: 75vh;
+}
+.featrude_games h1 {
+  margin: 64px auto 0;
+  height: 83px;
+  background: #000000;
+  border-radius: 0;
+  font-size: 50px;
+  color: #a5ddff;
+  text-align: center;
+}
+.featrude_games .featrude_games_box {
+  width: 95%;
+  height: 99vh;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+.featrude_games .featrude_games_box .featrude_games_card {
+  width: 250px;
+  height: 398px;
+  text-align: center;
+  padding: 5px;
+  border: 2px solid #aaa7a7;
+  margin: 20px;
+}
+.featrude_games
+  .featrude_games_box
+  .featrude_games_card.featrude_games_card:hover {
+  box-shadow: 0 0 20px #a5ddff;
+}
+.featrude_games
+  .featrude_games_box
+  .featrude_games_card.featrude_games_card
+  .featrude_games_img
+  img {
+  width: 230px;
+  height: 180px;
+}
+
+.featrude_games
+  .featrude_games_box
+  .featrude_games_card
+  .featrude_games_tag
+  h2 {
+  margin: 12px;
+}
+.featrude_games
+  .featrude_games_box
+  .featrude_games_card
+  .featrude_games_tag
+  .writer {
+  color: #11ef09;
+}
+.featrude_games
+  .featrude_games_box
+  .featrude_games_card
+  .featrude_games_tag
+  .categories {
+  color: #09d2c8;
+  margin-top: 8px;
+}
+.featrude_games
+  .featrude_games_box
+  .featrude_games_card
+  .featrude_games_tag
+  .games_price {
+  margin-top: 8px;
+  margin-bottom: 11px;
+  color: #fff;
+}
+.featrude_games
+  .featrude_games_box
+  .featrude_games_card
+  .featrude_games_tag
+  .games_price
+  sub {
+  padding: 0 5px;
+}
+.featrude_games
+  .featrude_games_box
+  .featrude_games_card
+  .featrude_games_tag
+  .f_btn {
+  padding: 8px 20px;
+  border: 2px solid #000000;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/*--stor games font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    color:#d9ff00 ;-->*/
+.arrivals {
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 35px;
+  margin-top: -200px;
+}
+
+.arrivals h1 {
+  margin: 279px auto 0;
+  height: 83px;
+  background: #000000;
+  border-radius: 0;
+  font-size: 50px;
+  color: #a5ddff;
+  text-align: center;
+}
+
+.arrivals .arrivals_box {
+  width: 95%;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 100px 0;
+  padding-bottom: 150px;
+}
+
+.arrivals .arrivals_box .arrivals_card {
+  width: 250px;
+  height: 370px;
+  text-align: center;
+  padding: 5px;
+  border: 2px solid #919191;
+  margin: auto 20px;
+}
+
+.arrivals .arrivals_box .arrivals_card:hover {
+  box-shadow: 0 0 20px #000000;
+}
+
+.arrivals .arrivals_box .arrivals_card .arrivals_image {
+  width: 230px;
+  height: 240px;
+  margin: 0 auto;
+  cursor: pointer;
+  overflow: hidden;
+}
+.arrivals .arrivals_box .arrivals_card .arrivals_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: 0.3s;
+}
+
+.arrivals .arrivals_box .arrivals_card:hover .arrivals_image img {
+  transform: scale(1.1);
+}
+.arrivals .arrivals_box .arrivals_card .arrivals_tag p {
+  font-family: queen of camelot;
+  font-size: 20px;
+  margin: 8px 0;
+  color: #00eaff;
+}
+.arrivals .arrivals_box .arrivals_card .arrivals_tag .arrivals_icon {
+  color: #e1ff00;
+  margin-bottom: 18px;
+}
+
+.arrivals .arrivals_box .arrivals_card .arrivals_tag .arrivals_btn {
+  padding: 8px 20px;
+  border: 2px solid #a5ddff;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.fa-box:before {
+  content: none !important;
+}
+*/

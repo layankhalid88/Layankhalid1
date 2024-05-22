@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(105, 11, 11);
+  /* background-color: #921515; */
+}
+
+.header {
+  align-items: center;
+  background-color: #0002048a;
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 90px;
+  transition: 0.5s;
+  width: 100%;
+  z-index: 10;
+}
+
+.logo {
+  font-family: cursive;
+  color: #fff;
+  font-size: 2em;
+  font-weight: 850px;
+  position: relative;
+  text-decoration: none;
+}
+
+.navbar {
+  width: 120%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 2px;
+  font-size: large;
+}
+
+.nav-list a {
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.nav-list a:hover {
+  background-color: #d80909;
+  box-shadow: 0 0 10px #a5162b;
+  color: white;
+  transition: 0.4s;
+}
+
+.search {
+  padding: 6px;
+  margin: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 100px;
+}
+
+.search i {
+  font-size: 1.5em;
+  color: #ef1a3a;
+}
+
+.input-search {
+  outline: none;
+  border: none;
+  font-size: 1.3em;
+  color: #000000;
+}
+
+main {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.main {
+  background-image: url("../images/main.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  color: beige;
+  margin: 50;
+  font-size: 60px;
+  font-family: "Times New Roman", Times, serif;
+  position: relative;
+  font-weight: bold;
+  text-align: left;
+}
+
+.joinGamingBtn {
+  background-color: #0002048a;
+  padding: 8px 11px;
+  transition: 0.5s;
+  /* z-index: 102; */
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 13px;
+  cursor: pointer;
+}
+.joinGamingBtn :hover {
+  box-shadow: #bebaba;
+}
+
+/* card secion2 */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin: auto; /* Center the container horizontally */
+  margin-top: 100px;
+}
+
+.card {
+  inline-size: none;
+  width: 325px;
+  height: 350px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  background-color: #4212126b;
+  /* background-color: rgb(103, 16, 20); */
+}
+
+.card img {
+  width: 100%;
+  height: 46%;
+  object-fit: cover;
+}
+
+.card:hover {
+  transform: translateY(-20px);
+  transition: 0.3s;
+}
+.card-content {
+  padding: 10px;
+}
+
+.card-content h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card-content p {
+  font-size: 15px;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+.card-content .btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #000000;
+  text-decoration: none;
+  border-radius: 3px;
+  margin-top: 13px;
+  color: white;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30px; /* Adjust height as needed */
+  background-color: #a8a6a6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+}
